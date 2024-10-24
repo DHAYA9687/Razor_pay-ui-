@@ -11,8 +11,8 @@ const Payment = () => {
       toast.error("Enter valid Amount");
     } else {
       var options = {
-        key: "rzp_test_dwqgWjT46AsveD",
-        key_secret: "Bf1uonE9Xsk38ZRVMtPQ5ddC",
+        key: "",
+        key_secret: "",
         amount: amount * 100,
         currency: "INR",
         name: "Donation",
